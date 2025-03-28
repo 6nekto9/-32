@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Single</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Jost & Fascinate Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Jost:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/colijala.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="stylesheet" href="assets/css/news_single.css">
+    <link rel="stylesheet" href="assets/media/home.media.css">
+</head>
+
+<body class="hero">
+    <div class="site_content">
+        <!-- ====================================== Preloader ===================================== -->
+        <div id="preloader">
+            <div id="container" class="container-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <div data-preloader-text="N" class="characters">N</div>
+                        <div data-preloader-text="A" class="characters">A</div>
+                        <div data-preloader-text="I" class="characters">I</div>
+                        <div data-preloader-text="R" class="characters">R</div>
+                        <div data-preloader-text="O" class="characters">O</div>
+                        <div data-preloader-text="B" class="characters">B</div>
+                        <div data-preloader-text="I" class="characters">I</div>
+                    </div>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- ====================================== Preloader End ===================================== -->
+        <!-- ====================================== Menu Section ===================================== -->
+        <div class="main_container">
+            <header class="menu">
+                <div class="logo_main">
+                    <a href="index.html">
+                        <img class="logo" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav_item">
+                    <ul class="list">
+                        <li class="menu-btn">
+                            <a href="index.html">HOME
+                                <span class="yellow-line"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper" id="wrapper">
+                <nav class="mobile-nav">
+                    <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+                    <div class="mobile-hub">
+                        <label class="m-menu__toggle" for="menu">
+                            <svg class="hub" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                stroke-linecap="butt">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </label>
+                        <div class="">
+                            <a href="index.html">
+                                <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="open-mobile-menu">
+                        <label class="m-menu__overlay" for="menu"></label>
+                        <div class="m-menu" id="run">
+                            <div class="m-menu__header">
+                                <a href="index.html">
+                                    <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <label class="m-menu__toggle close" for="menu">
+                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="butt">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </label>
+                            </div>
+                            <ul class="navbar-collapse">
+                                <li class="icon-menu sub-icon-menu">
+                                    <label>
+                                        <a href="index.html">HOME</a>
+                                    </label>
+                                </li>
+                                <li class="menu-contact">
+                                    <h1 class="share-text-m">SHARE</h1>
+                                    <p class="share-list-text-m"><a href="https://www.facebook.com/">Fb.</a></p>
+                                    <p class="share-list-text-m"><a href="https://twitter.com/">Tw.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.instagram.com/">Ins.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.linkedin.com">Li.</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- ====================================== Menu Section End ===================================== -->
+
+            <!-- ====================================== Main Page ===================================== -->
+            <div class="singal-top-space container overflow-hidden">
+                <h2 class="d-none">hidden</h2>
+                <h3 class="d-none">hidden</h3>
+                <h4 class="d-none">hidden</h4>
+                <h5 class="d-none">hidden</h5>
+                <div class="half-circle-frame half-circle-frame2 half-circle-frame3">
+                    <img class="half-circle-yellow object" data-value="-1" src="assets/img/half-circle-yellow.svg"
+                        alt="half-circle-yellow">
+                    <img class="half-circle-black object" data-value="2" src="assets/img/half-circle-black.svg"
+                        alt="half-circle-black">
+                </div>
+                <p class="news-main-text">News</p>
+                <h1 class="bootstrap" data-aos="fade-up">Latest Bootstrap 5 Framework for Front-End</h1>
+                <p class="average" data-aos="fade-up">Today most people get on average 4 to 6 hours of exercise every
+                    day, and make sure that everything they put in their mouths is not filled with sugars or
+                    preservatives, but they pay no attention to their mental health, no vacations, not even the
+                    occasional long weekend. All of this for hopes of one day getting that big promotion.
+                </p>
+                <div class="main_img">
+                    <div class="small-multiplication">
+                        <img class="black-multiplication  object" data-value="-1"
+                            src="assets/img/black-multipliction.svg" alt="black-multipliction">
+                        <img class="yellow-multiplication object" data-value="2"
+                            src="assets/img/yellow-multiplication.svg" alt="yellow-multiplication">
+                    </div>
+                    <img class="news-single-img" src="assets/img/news-single-img.png" alt="news-single-img">
+                    <div class="circle-frame2">
+                        <img class="black-circle" src="assets/img/black-circle.svg" alt="black-circle">
+                        <img class="yellow-circle" src="assets/img/yellow-circle.svg" alt="yellow-circle">
+                    </div>
+                </div>
+                <div class="share-list2" data-aos="fade-up">
+                    <div class="dots-square3">
+                        <img class="black-dots4 object" data-value="-1" src="assets/img/black-dots.svg"
+                            alt="black-dots">
+                        <img class="black-dots-frame4 object" data-value="2" src="assets/img/yellow-square-frame.svg"
+                            alt="yellow-square-frame">
+                    </div>
+                    <h2 class="d-none">hidden</h2>
+                    <h3 class="d-none">hidden</h3>
+                    <h4 class="d-none">hidden</h4>
+                    <h5 class="d-none">hidden</h5>
+                    <h6 class="share-text">SHARE</h6>
+                    <p class="share-list-text"><a href="https://www.facebook.com/">Fb.</a></p>
+                    <p class="share-list-text"><a href="https://twitter.com/">Tw.</a></p>
+                    <p class="share-list-text"><a href="https://www.instagram.com/">Ins.</a></p>
+                    <p class="share-list-text"><a href="https://www.linkedin.com">Li.</a></p>
+                </div>
+                <p class="volutpat2" data-aos="fade-up">Vestibulum, euismod sit duis ultrices adipiscing. Donec massa,
+                    volutpat maecenas ipsum, pellentesque ac enim. Interdum condimentum sit lectus porta sem tincidunt.
+                    Morbi congue tristique nunc magna. Lacus, egestas massa purus tellus viverra viverra neque est. Ut
+                    quisque mollis et id lectus.
+                </p>
+            </div>
+            <!-- ====================================== Main Page End ===================================== -->
+
+            <!-- ====================================== Second Section ===================================== -->
+            <section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="qote-bg">
+                        <div class="qote-space container">
+                            <div class="qote-head" data-aos="fade-up">
+                                <div class="qote-svg-main">
+                                    <img class="qote-svg" src="assets/img/qotes-svg.svg" alt="qotes-svg">
+                                </div>
+                            </div>
+                            <p class="better" data-aos="fade-up">If you've got an idea, start today. There's no better
+                                time than now to get going. That doesn't mean quit your job.
+                            </p>
+                            <h6 class="lewis-bass" data-aos="fade-up">Lewis bass</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Second Section End ===================================== -->
+
+            <!-- ====================================== Third Section ===================================== -->
+            <section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="spce-top container">
+                        <div class="row p-0">
+                            <div class="col-xl-6 text-section" data-aos="fade-up">
+                                <p class="tortor tortor1">Turpis tortor non, integer volutpat. Turpis feugiat leo erat
+                                    tortor viverra tortor viverra aliquam.Feugiat non, dolor nec porta faucibus.
+                                    Faucibus proin sed id hac mattis. Ut cursus ut mauris lacus, aliquam platea lobortis
+                                    pharetra feugiat. Posuere vulputate ornare sed ultrices pulvinar nulla. Adipiscing
+                                    sagittis eu urna, aliquam vitae maecenas. Donec eget posuere egestas in sed vel.
+                                    Porta eros, in posuere erat. Amet, urna, malesuada congue lobortis. Non tempus
+                                    convallis in suspendisse. Enim nec quisque urna, venenatis viverra semper. Lacus dui
+                                    ultrices feugiat cursus suspendisse fermentum, ac senectus.
+                                </p>
+                                <p class="tortor">
+                                    Pellentesque et, ornare purus quisque tortor, massa quis. Ut cursus nisi orci, at.
+                                    Magnis molestie at feugiat eleifend aliquam, et habitasse sapien. Ultricies ac velit
+                                    adipiscing nunc fusce. Leo vestibulum et pharetra, diam ante eleifend felis, platea.
+                                    Orci aliquet arcu,at in at sapien laoreet. Adipiscing elementum fermentum sit ut
+                                    tellus. A, volutpat ut massa egestas vestibulum condimentum. Leo, convallis
+                                    tristique facilisis elementum, ac adipiscing. Elementum tellus montes, sollicitudin
+                                    nunc est a id eget. Volutpat.
+                                </p>
+                                <div class="skill-list_news">
+                                    <ul class="skill-list-main">
+                                        <li> Develop easy-to-find and easy-to-navigate mobile friendly website</li>
+                                        <li>Showcase each type of content: interactive books, animated stories and
+                                            picture books, audio stories. Create an experience people want to share with
+                                            others
+                                        </li>
+                                        <li>Persuade to download app and subscribe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 p-0 position-relative">
+                                <div class="traingle-frame4">
+                                    <img class="traingle-yellow-news object" data-value="1"
+                                        src="assets/img/traingle-yellow-frame.svg" alt="traingle-yellow-frame">
+                                    <img class="traingle-black-news object" data-value="-2"
+                                        src="assets/img/traingle-black-frame.svg" alt="traingle-black-frame">
+                                </div>
+                                <div class="simone-img-main">
+                                    <img class="simone-img" src="assets/img/simone-img.png" alt="simone-img">
+                                </div>
+                                <div class="small-half-circle">
+                                    <img class="circle_news_yellow object" data-value="1"
+                                        src="assets/img/half-circle-yellow.svg" alt="half-circle-yellow">
+                                    <img class="circle_news_black object" data-value="-2"
+                                        src="assets/img/half-circle-black.svg" alt="half-circle-black">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="like-button-circle position-relative" data-aos="fade-up">
+                            <div class='large-font'>
+                                <ion-icon name="heart" class="open_likes">
+                                    <div class='red-bg'></div>
+                                </ion-icon>
+                            </div>
+                            <div class="half2-circle-like">
+                                <img class="black-half-circal-like object" data-value="-1"
+                                    src="assets/img/black-half-circal.svg" alt="black-half-circal">
+                                <img class="yellow-half-circal-like object" data-value="2"
+                                    src="assets/img/yellow-half-circle.svg" alt="yellow-half-circle">
+                            </div>
+                        </div>
+                        <div class="like-increment" data-aos="fade-up">
+                            <span class="open_likes_count">8</span>
+                            <p class="like-text">Liked</p>
+                        </div>
+                        <div class="nextprev">
+                            <div class="nextprev-section" data-aos="zoom-out-left">
+                                <h6 class="text-prev"><a href="news.html">PREV</a></h6>
+                                <h3 class="build"><a href="news.html">Building brands through customer service</a></h3>
+                            </div>
+                            <div class="nextprev-section nextprev-section2">
+                                <h4 class="d-none">hidden</h4>
+                                <h5 class="d-none">hidden</h5>
+                                <h6 class="text-prev" data-aos="zoom-out-right">
+                                    <a href="news.html">NEXT</a>
+                                </h6>
+                                <h3 class=" build" data-aos="zoom-out-right">
+                                    <a href="news.html">The Elegant and Awesome Themify Icon Library</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Third Section ===================================== -->
+
+            <!-- ====================================== Testomonial Section ===================================== -->
+            <section class="active_menus overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="spacer position-relative container">
+                        <div class="position-relative">
+                            <div class="yellow_circle"></div>
+                            <h2 class="about-text" id="testimonial" data-aos="fade-up">Testimonial</h2>
+                            <p class="design_text creative_text" data-aos="fade-up">Luctus in posuere mattis tempor
+                                eu vestibulum. Malesuada risus felis consequat facilisis aenean quis. In nec.</p>
+                            <div class="dots-square2">
+                                <img class="dots-img1 object" data-value="1" src="assets/img/black-dots.svg"
+                                    alt="dots-img">
+                                <img class="yellow-square-frame2 object" data-value="-2"
+                                    src="assets/img/yellow-square-frame.svg" alt="yellow-square-frame">
+                            </div>
+                        </div>
+                        <div class="testimonial_slider" id="portfolio_horizontal_container" data-aos="fade-up">
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji.png" alt="emoji">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji2.png" alt="emoji2">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji3.png" alt="emoji3">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                        </div>
+                        <img class="singal-dots-img object" data-value="3" src="assets/img/black-dots.svg"
+                            alt="dots-img">
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Testomonial Section End ===================================== -->
+
+            <!-- ====================================== Email Section ===================================== -->
+            <Section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="email-bg">
+                        <div class="email-spacer">
+                            <div class="yellow_circle"></div>
+                            <h2 class="email-section" data-aos="fade-up">
+                                <a href="mailto:hello@nairobi.comv">hello@nairobi.com</a>
+                            </h2>
+                            <p class="design_text creative_text tell_us" data-aos="fade-up">Let tell us know your dream
+                                and we will help you make it become reality
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+            <!-- ====================================== Email Section End ===================================== -->
+
+            <!-- ====================================== Form Section ===================================== -->
+            <section>
+                <div class="all-page-border2">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 form-spacer">
+                            <div class="yellow_circle"></div>
+                            <div class="half-circle-end">
+                                <img class="half-circle-end-yellow object" src="assets/img/half-circle-yellow.svg"
+                                    data-value="-1" alt="yellow-multiplication">
+                                <img class="half-circle-end-black object" data-value="1"
+                                    src="assets/img/half-circle-black.svg" alt="black-multiplication">
+                            </div>
+                            <h2 class="get-in-touch get-touch" id="send" data-aos="fade-up">GET IN TOUCH</h2>
+                            <p class="design_text creative_text touch" data-aos="fade-up">Fill out my form below and
+                                send me
+                                an email.</p>
+                            <div class="form-main" onsubmit="sendmail()">
+                                <div class="form">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">Name*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="email" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">E-mail*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">Phone Number</span>
+                                    </label>
+                                </div>
+                                <div class="form" id="form2">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name" id="content-name2">Message*</span>
+                                    </label>
+                                </div>
+                                <div class="button-required">
+                                    <button class="send-btn">
+                                        Send Message
+                                        <span class="send-span"></span>
+                                    </button>
+                                    <p class="required">*Marked fields are required to fill.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 form-spacer2 active_menus" id="active_menus">
+                            <div class="yellow_circle" id="spacing-circle"></div>
+                            <h2 class="catch-me" id="contact" data-aos="fade-up">CATCH ME HERE</h2>
+                            <h3 class="d-none">hidden</h3>
+                            <div class="email-phone" data-aos="fade-up">
+                                <div class="contact-box1">
+                                    <div class="phone-main" id="center">
+                                        <a href="tel:+01(234)5678899"><img class="form-phone" src="assets/img/phone.svg"
+                                                alt="phone"></a>
+                                        <div class="big-yellow-circle4"></div>
+                                    </div>
+                                    <p class="form-contact"><a href="tel:+01(234)5678899"> +01 (234) 567 8899</a>
+                                    </p>
+                                </div>
+                                <div class="contact-box2">
+                                    <div class="phone-main">
+                                        <img class="location" src="assets/img/location.svg" alt="location">
+                                        <div class="big-yellow-circle4"></div>
+                                    </div>
+                                    <p class="form-contact"><a href="">14/A, Manila St. NYC, USA</a></p>
+                                </div>
+                            </div>
+                            <h4 class="follow-me-text" data-aos="fade-up">Follow me</h4>
+                            <div class="social-media-icon" data-aos="fade-up">
+                                <div class="circle-border">
+                                    <a href="https://www.facebook.com/">
+                                        <img class="social-icons" src="assets/img/fb-icon.svg" alt="fb-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://twitter.com/">
+                                        <img class="social-icons" src="assets/img/twit-icon.svg" alt="twit-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.instagram.com/">
+                                        <img class="social-icons" src="assets/img/insta-icon.svg" alt="insta-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.behance.net/">
+                                        <img class="social-icons" src="assets/img/be-icon.svg" alt="be-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://dribbble.com/">
+                                        <img class="social-icons" src="assets/img/dribble-icon.svg" alt="dribble-icon">
+                                    </a>
+                                </div>
+                                <div class="multiplication-frame-footer">
+                                    <img class="black-multiplication-form object" data-value="1"
+                                        src="assets/img/black-multipliction.svg" alt="black-multiplication">
+                                    <img class="yellow-multiplication-form object"
+                                        src="assets/img/yellow-multiplication.svg" data-value="-1"
+                                        alt="yellow-multiplication">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Form Section End ===================================== -->
+
+            <!-- ====================================== Footer Section ===================================== -->
+            <footer>
+                <div class="all-page-border2 border-bottom-0">
+                    <p class="reserved"> Nairobi Template © 2023, All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <!-- ====================================== Form Section End ===================================== -->
+
+        <!-- ====================================== Bottom To Top Button ===================================== -->
+        <button class="bottom-top-button"><i class="fa-sharp fa-solid fa-arrow-up fa-xl"></i></button>
+        <!-- ====================================== Bottom To Top Button End ===================================== -->
+
+        <!-- ====================================== Cusrsor  ===================================== -->
+        <div class="element">
+            <div class="element-item"></div>
+        </div>
+        <!-- ====================================== Cusrsor End ===================================== -->
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/jquery/aos.js"></script>
+    <script src="assets/jquery/plugins.js"></script>
+    <script src="assets/jquery/strict.js"></script>
+    <script src="assets/jquery/jqueryboost.js"></script>
+    <script src="assets/jquery/slick.min.js"></script>
+    <script src="assets/jquery/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+    </script>
+</body>
+
+</html>

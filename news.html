@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Jost & Fascinate Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Jost:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/colijala.css">
+    <link rel="stylesheet" href="assets/css/news.css">
+    <link rel="stylesheet" href="assets/media/home.media.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+
+<body class="hero">
+    <div class="site_content">
+        <!-- ====================================== Preloader ===================================== -->
+        <div id="preloader">
+            <div id="container" class="container-preloader">
+                <div class="animation-preloader">
+                    <div class="spinner"></div>
+                    <div class="txt-loading">
+                        <div data-preloader-text="N" class="characters">N</div>
+                        <div data-preloader-text="A" class="characters">A</div>
+                        <div data-preloader-text="I" class="characters">I</div>
+                        <div data-preloader-text="R" class="characters">R</div>
+                        <div data-preloader-text="O" class="characters">O</div>
+                        <div data-preloader-text="B" class="characters">B</div>
+                        <div data-preloader-text="I" class="characters">I</div>
+                    </div>
+                </div>
+                <div class="loader-section section-left"></div>
+                <div class="loader-section section-right"></div>
+            </div>
+        </div>
+        <!-- ====================================== Preloader End ===================================== -->
+        <!-- ====================================== Menu Section ===================================== -->
+        <div class="main_container">
+            <header class="menu">
+                <div class="logo_main">
+                    <a href="index.html">
+                        <img class="logo" src="assets/img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav_item">
+                    <ul class="list">
+                        <li class="menu-btn">
+                            <a href="index.html">HOME
+                                <span class="yellow-line"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper" id="wrapper">
+                <nav class="mobile-nav">
+                    <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+                    <div class="mobile-hub">
+                        <label class="m-menu__toggle" for="menu">
+                            <svg class="hub" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                stroke-linecap="butt">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </label>
+                        <div class="">
+                            <a href="index.html">
+                                <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="open-mobile-menu">
+                        <label class="m-menu__overlay" for="menu"></label>
+                        <div class="m-menu" id="run">
+                            <div class="m-menu__header">
+                                <a href="index.html">
+                                    <img class="mobile-view-logo" src="assets/img/logo.svg" alt="logo">
+                                </a>
+                                <label class="m-menu__toggle close" for="menu">
+                                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke-width="2"
+                                        stroke-linecap="butt">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </label>
+                            </div>
+                            <ul class="navbar-collapse">
+                                <li class="icon-menu sub-icon-menu">
+                                    <label>
+                                        <a href="index.html">HOME</a>
+                                    </label>
+                                </li>
+                                <li class="menu-contact">
+                                    <h1 class="share-text-m">SHARE</h1>
+                                    <p class="share-list-text-m"><a href="https://www.facebook.com/">Fb.</a></p>
+                                    <p class="share-list-text-m"><a href="https://twitter.com/">Tw.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.instagram.com/">Ins.</a></p>
+                                    <p class="share-list-text-m"><a href="https://www.linkedin.com">Li.</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- ====================================== Menu Section End===================================== -->
+
+            <!-- ====================================== Main Page ===================================== -->
+            <section class="overflow-hidden">
+                <div class="main-spacer">
+                    <div class="position-relative">
+                        <div class="yellow_circle"></div>
+                        <h2 class="about-text" data-aos="fade-up">NEWS</h2>
+                        <p class="unconventional2" data-aos="fade-up">Luctus in posuere mattis tempor eu vestibulum.
+                            Malesuada risus felis consequat facilisis aenean quis. In nec.</p>
+                        <div class="half-circle-frame half-circle-frame2">
+                            <img class="half-circle-yellow object" data-value="-1"
+                                src="assets/img/half-circle-yellow.svg" alt="half-circle-yellow">
+                            <img class="half-circle-black object" data-value="2" src="assets/img/half-circle-black.svg"
+                                alt="half-circle-black">
+                        </div>
+                    </div>
+                    <div class="slider2 hover15" id="portfolio_horizontal2">
+                        <div class="slider-space">
+                            <h3 class="date">July 15, 2022</h3>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img1.jpg" alt="news-img1">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Building brands through customer service</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci,
+                                velit, dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img2.jpg" alt="news-img2">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Latest Bootstrap 5 Framework for Front-End</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img3.jpg" alt="news-img3">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">The Elegant and Awesome Themify Icon Library</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.</p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 15, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img4.jpg" alt="news-img4">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Building brands through customer service</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img9.jpg" alt="news-img5">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Latest Bootstrap 5 Framework for Front-End
+                                </a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img5.jpg" alt="news-img6">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">The Elegant and Awesome Themify Icon Library</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 15, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img4.jpg" alt="news-img4">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Building brands through customer service</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.</p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img5.jpg" alt="news-img5">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Latest Bootstrap 5 Framework for Front-End</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img6.jpg" alt="news-img6">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">The Elegant and Awesome Themify Icon Library</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="slider2 hover15" id="portfolio_horizontal">
+                        <div class="slider-space">
+                            <h5 class="date">July 15, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img4.jpg" alt="news-img1">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">At aliquam id ut eget pulvinar eget aenean consequat
+                                    cras.</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci,
+                                velit, dictumst arcu lacus.</p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img5.jpg" alt="news-img2">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Faucibus est id consequat pulvinar eget cras fames.</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.</p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img6.jpg" alt="news-img3">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Est ullamcorper leo urna pulvinar eget egestas felis.</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 15, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img4.jpg" alt="news-img4">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Building brands through customer service</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img7.jpg" alt="news-img5">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Latest Bootstrap 5 Framework for Front-End</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img1.jpg" alt="news-img6">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">The Elegant and Awesome Themify Icon Library</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 15, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img9.jpg" alt="news-img4">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Building brands through customer service</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 18, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img5.jpg" alt="news-img5">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">Latest Bootstrap 5 Framework for Front-End</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.</p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                        <div class="slider-space">
+                            <h5 class="date">July 25, 2022</h5>
+                            <div class="news-img-main">
+                                <figure>
+                                    <a href="news_single.html">
+                                        <img class="news-img1 inner-img" src="assets/img/news-img6.jpg" alt="news-img6">
+                                    </a>
+                                </figure>
+                            </div>
+                            <h3 class="brands">
+                                <a href="news_single.html">The Elegant and Awesome Themify Icon Library</a>
+                            </h3>
+                            <p class="vitae">Volutpat nulla quis odio vitae augue tellus. Viverra cras senectus ac
+                                pulvinar tristique bibendum. Diam purus, nisi, at a bibendum leo malesuada. Orci, velit,
+                                dictumst arcu lacus.
+                            </p>
+                            <h4 class="read_more">
+                                <a href="news_single.html">READ MORE</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Main Page  End===================================== -->
+
+            <!-- ====================================== Testomonial Section ===================================== -->
+            <section class="active_menus overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="spacer position-relative container">
+                        <div class="position-relative">
+                            <div class="yellow_circle"></div>
+                            <h2 class="about-text" id="testimonial" data-aos="fade-up">Testimonial</h2>
+                            <p class="design_text creative_text" data-aos="fade-up">Luctus in posuere mattis tempor
+                                eu vestibulum. Malesuada risus felis consequat facilisis aenean quis. In nec.</p>
+                            <div class="dots-square2">
+                                <img class="dots-img1 object" data-value="1" src="assets/img/black-dots.svg"
+                                    alt="dots-img">
+                                <img class="yellow-square-frame2 object" data-value="-2"
+                                    src="assets/img/yellow-square-frame.svg" alt="yellow-square-frame">
+                            </div>
+                        </div>
+                        <div class="testimonial_slider" id="portfolio_horizontal_container" data-aos="fade-up">
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji.png" alt="emoji">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji2.png" alt="emoji2">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                            <div>
+                                <div class="left-right-space">
+                                    <p class="slider-text">I had a problem finding something, asked the support team,
+                                        got a replay and a solution within a few minutes. Brilliant support! Very happy
+                                        with the website I bought.
+                                    </p>
+                                </div>
+                                <div class="emoji-img-main">
+                                    <img class="emoji" src="assets/img/emoji3.png" alt="emoji3">
+                                </div>
+                                <h3 class="requel">raquel Murillo</h3>
+                                <h4 class="ceo">CEO, DLKP</h4>
+                            </div>
+                        </div>
+                        <img class="singal-dots-img object" data-value="3" src="assets/img/black-dots.svg"
+                            alt="dots-img">
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Testomonial Section End ===================================== -->
+
+            <!-- ====================================== Email Section ===================================== -->
+            <Section class="overflow-hidden">
+                <div class="all-page-border2">
+                    <div class="email-bg">
+                        <div class="email-spacer">
+                            <div class="yellow_circle"></div>
+                            <h2 class="email-section" data-aos="fade-up">
+                                <a href="mailto:hello@nairobi.comv">hello@nairobi.com</a>
+                            </h2>
+                            <p class="design_text creative_text tell_us" data-aos="fade-up">Let tell us know your dream
+                                and we will help you make it become reality</p>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+            <!-- ====================================== Form Section ===================================== -->
+            <section>
+                <div class="all-page-border2">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 form-spacer">
+                            <div class="yellow_circle"></div>
+                            <div class="half-circle-end">
+                                <img class="half-circle-end-yellow object" src="assets/img/half-circle-yellow.svg"
+                                    data-value="-1" alt="yellow-multiplication">
+                                <img class="half-circle-end-black object" data-value="1"
+                                    src="assets/img/half-circle-black.svg" alt="black-multiplication">
+                            </div>
+                            <h2 class="get-in-touch get-touch" id="send" data-aos="fade-up">GET IN TOUCH</h2>
+                            <p class="design_text creative_text touch" data-aos="fade-up">Fill out my form below and
+                                send me an email.</p>
+                            <div class="form-main" onsubmit="sendmail()">
+                                <div class="form">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">Name*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="email" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">E-mail*</span>
+                                    </label>
+                                </div>
+                                <div class="form">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name">Phone Number</span>
+                                    </label>
+                                </div>
+                                <div class="form" id="form2">
+                                    <input type="text" name="name" required autocomplete="off">
+                                    <label class="label-name">
+                                        <span class="content-name" id="content-name2">Message*</span>
+                                    </label>
+                                </div>
+                                <div class="button-required">
+                                    <button class="send-btn">
+                                        Send Message
+                                        <span class="send-span"></span>
+                                    </button>
+                                    <p class="required">*Marked fields are required to fill.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 form-spacer2 active_menus" id="active_menus">
+                            <div class="yellow_circle" id="spacing-circle"></div>
+                            <h2 class="catch-me" id="contact" data-aos="fade-up">CATCH ME HERE</h2>
+                            <h3 class="d-none">hidden</h3>
+                            <div class="email-phone" data-aos="fade-up">
+                                <div class="contact-box1">
+                                    <div class="phone-main" id="center">
+                                        <a href="tel:+01(234)5678899">
+                                            <img class="form-phone" src="assets/img/phone.svg" alt="phone">
+                                        </a>
+                                        <div class="big-yellow-circle4"></div>
+                                    </div>
+                                    <p class="form-contact">
+                                        <a href="tel:+01(234)5678899"> +01 (234) 567 8899</a>
+                                    </p>
+                                </div>
+                                <div class="contact-box2">
+                                    <div class="phone-main">
+                                        <img class="location" src="assets/img/location.svg" alt="location">
+                                        <div class="big-yellow-circle4"></div>
+                                    </div>
+                                    <p class="form-contact">
+                                        <a href="">14/A, Manila St. NYC, USA</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <h4 class="follow-me-text" data-aos="fade-up">Follow me</h4>
+                            <div class="social-media-icon" data-aos="fade-up">
+                                <div class="circle-border">
+                                    <a href="https://www.facebook.com/">
+                                        <img class="social-icons" src="assets/img/fb-icon.svg" alt="fb-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://twitter.com/">
+                                        <img class="social-icons" src="assets/img/twit-icon.svg" alt="twit-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.instagram.com/">
+                                        <img class="social-icons" src="assets/img/insta-icon.svg" alt="insta-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://www.behance.net/">
+                                        <img class="social-icons" src="assets/img/be-icon.svg" alt="be-icon">
+                                    </a>
+                                </div>
+                                <div class="circle-border">
+                                    <a href="https://dribbble.com/">
+                                        <img class="social-icons" src="assets/img/dribble-icon.svg" alt="dribble-icon">
+                                    </a>
+                                </div>
+                                <div class="multiplication-frame-footer">
+                                    <img class="black-multiplication-form object" data-value="1"
+                                        src="assets/img/black-multipliction.svg" alt="black-multiplication">
+                                    <img class="yellow-multiplication-form object"
+                                        src="assets/img/yellow-multiplication.svg" data-value="-1"
+                                        alt="yellow-multiplication">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ====================================== Form Section End ===================================== -->
+
+            <!-- ====================================== Footer Section ===================================== -->
+            <footer>
+                <div class="all-page-border2 border-bottom-0">
+                    <p class="reserved"> Nairobi Template © 2023, All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+        <!-- ====================================== Footer Section End ===================================== -->
+
+        <!-- ====================================== Bottom To Top Button ===================================== -->
+        <button class="bottom-top-button"><i class="fa-sharp fa-solid fa-arrow-up fa-xl"></i></button>
+        <!-- ====================================== Bottom To Top Button End ===================================== -->
+
+        <!-- ====================================== Cusrsor ===================================== -->
+        <div class="element">
+            <div class="element-item"></div>
+        </div>
+        <!-- ====================================== Cusrsor End ===================================== -->
+    </div>
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/jquery/aos.js"></script>
+    <script src="assets/jquery/plugins.js"></script>
+    <script src="assets/jquery/strict.js"></script>
+    <script src="assets/jquery/jqueryboost.js"></script>
+    <script src="assets/jquery/slick.min.js"></script>
+    <script src="assets/jquery/index.js"></script>
+    <script>
+        AOS.init({
+            duration: 1600,
+        })
+        $(window).on("scroll", function () {
+            AOS.init();
+        });
+    </script>
+</body>
+
+</html>
